@@ -1,0 +1,17 @@
+{
+    "user_1": {
+        "total_requests": 3,
+        "total_tokens": 243,
+        "total_cost": 0.00037099999999999996
+    },
+    "user_2": {
+        "total_requests": 1,
+        "total_tokens": 46,
+        "total_cost": 5.6e-05
+    },
+    "user_3": {
+        "total_requests": 1,
+        "total_tokens": 57,
+        "total_cost": 7.8e-05
+    }
+}
