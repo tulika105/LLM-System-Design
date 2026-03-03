@@ -1,3 +1,4 @@
+```
 LLM-SYSTEM-DESIGN/
 │
 ├── app/                               # Main application package
@@ -19,4 +20,4 @@ LLM-SYSTEM-DESIGN/
 │       └── usage.json                 # Persistent storage for per-user usage & cost tracking
 │
 ├── requirements.txt                   # Python dependencies for the project
-└── .env                               # Environment variables (API keys, model names, configuration)
+```
