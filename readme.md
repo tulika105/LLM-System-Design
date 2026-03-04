@@ -20,7 +20,7 @@ The goal of this project was to understand how scalable LLM backends operate in 
 - 💰 **Token-level Cost Accounting** (input/output pricing simulation)
 - 💾 **Persistent Usage Tracking** (JSON-based storage)
 - 🧱 **Layered Architecture with Service Abstraction**
-- 📄 Automatic API documentation via Swagger
+- 📄 **Automatic API documentation via Swagger**
 
 ---
 
@@ -153,7 +153,9 @@ X-API-Key: user1-key
 ```json
 {
   "response": "Rate limiting is a technique used to control how many requests a user can make to an API within a specific time window...",
-  "model_used": "llama3-70b-8192",
+  "model_used": "llama3.3-70b-versatile",
+  "input_tokens": 42,
+  "output_tokens": 100,
   "total_tokens": 142,
   "latency": 1.21
 }
