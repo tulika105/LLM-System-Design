@@ -5,9 +5,9 @@
         "total_cost": 0.0011709999999999997
     },
     "user_2": {
-        "total_requests": 1,
-        "total_tokens": 46,
-        "total_cost": 5.6e-05
+        "total_requests": 2,
+        "total_tokens": 92,
+        "total_cost": 0.000112
     },
     "user_3": {
         "total_requests": 1,
