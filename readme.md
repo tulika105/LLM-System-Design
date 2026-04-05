@@ -2,7 +2,6 @@
 
 A production-style LLM Gateway built using **FastAPI** to explore how real-world LLM backends work. It demonstrates authentication,  per-user rate limiting, token-level cost tracking, fallback handling, and persistent usage storage.
 
-This project was built primarily for **learning and understanding backend architecture and system design concepts behind LLM-based systems**.
 ---
 
 ## 🧠 Project Goal
@@ -20,7 +19,7 @@ The goal of this project was to understand how scalable LLM backends operate in 
 - 💰 **Token-level Cost Accounting** (input/output pricing simulation)
 - 💾 **Persistent Usage Tracking** (JSON-based storage)
 - 🧱 **Layered Architecture with Service Abstraction**
-- 📄 Automatic API documentation via Swagger
+- 📄 **Automatic API documentation via Swagger**
 
 ---
 
@@ -153,7 +152,9 @@ X-API-Key: user1-key
 ```json
 {
   "response": "Rate limiting is a technique used to control how many requests a user can make to an API within a specific time window...",
-  "model_used": "llama3-70b-8192",
+  "model_used": "llama3.3-70b-versatile",
+  "input_tokens": 42,
+  "output_tokens": 100,
   "total_tokens": 142,
   "latency": 1.21
 }
@@ -216,29 +217,9 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## 🎓 What I Learned From This Project
-
-Through building this system, I explored several backend and system design concepts:
-
-- Dependency Injection in FastAPI
-- Stateless vs Stateful backend design
-- Sync vs Async execution model
-- Layered architecture and separation of concerns
-- Service abstraction patterns
-- Rate limiting implementation
-- Token-level cost accounting concepts for LLM systems
-- Fallback strategies for system reliability
-- Persistent storage design (using JSON to simulate a database)
-
-This project helped me move beyond simply calling LLM APIs and better understand **how scalable AI backend systems are structured and managed**.
-
----
-
 ## 📌 Key Takeaway
 
 This project focuses on **the backend infrastructure required to manage LLM systems reliably**, including request control, usage tracking, modular architecture, and system resilience.
-
-It was built as a learning exercise to understand **how real-world AI systems manage requests, costs, and reliability at the backend level**.
 
 ---
 
