@@ -4,6 +4,8 @@ A production-style LLM Gateway built using **FastAPI** to explore how real-world
 
 ---
 
+## System Walkthrough - https://youtu.be/2KCNXwQrQRI
+
 ## 🧠 Project Goal
 
 The goal of this project was to understand how scalable LLM backends operate in production environments by implementing core infrastructure components such as authentication, request control, cost tracking, and modular service design.
