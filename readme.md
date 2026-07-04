@@ -1,6 +1,8 @@
-# 🚀 LLM Gateway – Backend System Design with FastAPI
+# LLM Gateway – Backend System Design with FastAPI
 
 A production-style LLM Gateway built using **FastAPI** to explore how real-world LLM backends work. It demonstrates authentication,  per-user rate limiting, token-level cost tracking, fallback handling, and persistent usage storage.
+
+## System Walkthrough - https://youtu.be/2KCNXwQrQRI
 
 ---
 
